@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>C2.10. Практика</title>
+
+  </head>
+  <body>
+    <div>
+      <h3>Результаты голосования</h3>
+      <div class="progress" style="height: 2pc; font-size: 1pc">
+        <div id="cats" class="progress-bar bg-success j-bar-cat" role="progressbar" style="width: 33.33%" aria-valuenow="33.33"
+          aria-valuemin="0" aria-valuemax="100"></div>
+        <div id="dogs" class="progress-bar bg-warning j-bar-dog" role="progressbar" style="width: 33.33%" aria-valuenow="33.33"
+          aria-valuemin="0" aria-valuemax="100"></div>
+        <div id="parrots" class="progress-bar bg-danger j-bar-prt" role="progressbar" style="width: 33.33%" aria-valuenow="33.33"
+          aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/voting_results.js"></script>
+  </body>
+</html>
